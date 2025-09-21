@@ -1,0 +1,73 @@
+{
+  "1_101": [
+    {
+      "id": 5001,
+      "testName": "Mobile App Load Test",
+      "version": 1,
+      "target": {
+        "id": 101,
+        "type": "Android",
+        "name": "Samsung Galaxy S21",
+        "variant": "Ultra",
+        "revision": "1.2.3",
+        "release": "2023.Q4",
+        "created": "2023-12-15 11:02:45 000",
+        "description": "Premium Android device testing"
+      },
+      "uuid": "uuid-5001-mobile-load-test",
+      "delay": 2000,
+      "sutName": "Samsung Galaxy S21",
+      "sutId": "SUT_SAMSUNG_S21",
+      "testsRepeat": [
+        {
+          "reportStatus": "PASS",
+          "created": "2023-12-15 11:02:45 000",
+          "hilNotes": "Hil notes",
+          "valNotes": "Val notes",
+          "elapsedTime": "45000",
+          "opnReason": "Random",
+          "statistics": []
+        },
+        {
+          "reportStatus": "PASS",
+          "created": "2023-12-15 11:02:45 000",
+          "hilNotes": "Hil notes",
+          "valNotes": "Val notes",
+          "elapsedTime": "47000",
+          "opnReason": "Random",
+          "statistics": []
+        }
+      ]
+    },
+    {
+      "id": 5002,
+      "testName": "Network Connectivity Test",
+      "version": 2,
+      "target": {
+        "id": 101,
+        "type": "Android",
+        "name": "Samsung Galaxy S21",
+        "variant": "Ultra",
+        "revision": "1.2.3",
+        "release": "2023.Q4",
+        "created": "2023-12-15 11:02:45 000",
+        "description": "Premium Android device testing"
+      },
+      "uuid": "uuid-5002-network-connectivity",
+      "delay": 1500,
+      "sutName": "Samsung Galaxy S21",
+      "sutId": "SUT_SAMSUNG_S21",
+      "testsRepeat": [
+        {
+          "reportStatus": "FAIL",
+          "created": "2023-12-15 11:02:45 000",
+          "hilNotes": "Hil notes",
+          "valNotes": "Val notes",
+          "elapsedTime": "45000",
+          "opnReason": "Random",
+          "statistics": []
+        }
+      ]
+    }
+  ]
+}

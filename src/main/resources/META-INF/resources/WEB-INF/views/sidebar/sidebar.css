@@ -1,0 +1,229 @@
+body {
+    min-width: 320px;
+}
+
+.pageView {
+    position: fixed;
+    bottom: 0px;
+    top: 90px;
+    right: 0px;
+    overflow: auto;
+    background-color: rgb(33 32 32 / 70%);
+}
+
+.sidebar {
+    background-color: #484c4d;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navigation-bar {
+    background-color: #ffffff;
+    height: 90px;
+    margin-left: 0;
+    box-shadow: 0px 2px 2px 1px rgba(72, 76, 77, 0.5);
+}
+
+.menu-button {
+    height: 90px;
+    width: 90px;
+    background-color: Transparent;
+    border: none;
+    outline: none;
+}
+
+.logout-button {
+    background-color: Transparent;
+    border: none;
+    outline: none;
+    float: right;
+    margin-right: 15px;
+    height: 90px;
+    padding: 10px;
+}
+
+.img-dashboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 15px;
+    width: inherit;
+}
+
+.img-dash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+    padding: 46px;
+    position: absolute;
+    width: 200px;
+}
+
+.currentPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentPage > .img-arrow {
+    visibility: visible;
+}
+
+.img-arrow {
+    position: absolute;
+    right: -2px;
+    width: 11px;
+    height: 21px;
+    visibility: hidden;
+    cursor: default;
+}
+
+.img-m3 {
+    padding: 10px;
+    height: 90px;
+    width: auto;
+    position: absolute;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.sidebar-ul {
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: #484c4d;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.dash-element a {
+    padding: 15px;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 11pt;
+    text-align: center;
+    display: block;
+    width: 100%;
+    line-height: 30px;
+}
+
+.dash-element a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dash-element a:focus:hover {
+    color: #ffffff;
+}
+
+.dash-element:hover a {
+    background-color: #005CB9;
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 3px;
+    margin-right: 12px;
+}
+
+.iconHome {
+    background: url('/img/dashboard/icon_1.png');
+    width: 30px;
+    height: 31px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.iconEnvironments {
+    background: url('/img/dashboard/icon_2.png');
+    width: 30px;
+    height: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.iconResult {
+    background: url('/img/dashboard/icon_3.png');
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.iconStatistics {
+    background: url('/img/dashboard/icon_5.png');
+    width: 30px;
+    height: 31px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.iconBenchmark {
+    background: url('/img/dashboard/icon_6.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.iconLogout {
+    background: url('/img/dashboard/icon_12.png');
+    width: 40px;
+    height: 31px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.logout {
+    background-color: transparent;
+    color: #484c4d;
+    font-size: 15pt;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        top: 90px;
+    }
+
+    .pageView {
+        left: 0px;
+    }
+
+    .img-m3 {
+        left: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        top: 0;
+    }
+
+    .pageView {
+        left: 200px;
+    }
+
+    .img-m3 {
+        left: 200px;
+    }
+}

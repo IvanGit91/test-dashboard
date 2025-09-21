@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "sutId": "SUT_SAMSUNG_S21",
+    "sutName": "Samsung Galaxy S21 Ultra",
+    "componentType": "mi",
+    "timezone": "Europe/Rome",
+    "queueNightEnd": 6,
+    "queueNightInit": 22,
+    "queueDayEnd": 22,
+    "queueDayInit": 6,
+    "weekend": "[\"Saturday\", \"Sunday\"]",
+    "bridge": {
+      "id": 101,
+      "description": "Android Bridge 1",
+      "ip": "192.168.1.100",
+      "port": 8080
+    },
+    "stop": false,
+    "reason": null,
+    "details": "{\"firmwareVersion\":\"1.2.3\",\"connectionType\":\"WiFi\",\"backendEnvironment\":\"Prod\",\"provisioning\":\"true\",\"site\":\"Site-1\",\"idSerialNumber\":\"SN1234567890\"}",
+    "reserved": true,
+    "connected": true,
+    "duts": [
+      {
+        "id": 1,
+        "sutId": "SUT_SAMSUNG_S21",
+        "sutName": "Samsung Galaxy S21 Ultra",
+        "sut": {
+          "id": 1
+        },
+        "componentType": "mi",
+        "index": 1,
+        "connected": true,
+        "reserved": false
+      }
+    ],
+    "labelDayNight": "[6 - 22] [22 - 6]",
+    "planningList": [
+      {
+        "id": "test-123",
+        "project": "Dashboard",
+        "test": "Sample Test",
+        "vfName": "VF-001",
+        "typeTarget": "Regression",
+        "variant": "Chrome",
+        "revision": "1.0.0",
+        "release": "2025.09",
+        "sut": "SUT_SAMSUNG_S21",
+        "status": "Planned",
+        "importance": 1,
+        "k": 2,
+        "executableVersionName": "v1.0.0",
+        "version": 1,
+        "permission": true,
+        "queue": "default",
+        "stepTotal": 10,
+        "stepExecuted": 2,
+        "componentType": "mi",
+        "created": "2025-09-17T10:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "sutId": "SUT_IPHONE_14_PRO",
+    "sutName": "iPhone 14 Pro",
+    "componentType": "tau",
+    "timezone": "Europe/Rome",
+    "queueNightEnd": 6,
+    "queueNightInit": 23,
+    "queueDayEnd": 23,
+    "queueDayInit": 6,
+    "weekend": "[\"Saturday\", \"Sunday\"]",
+    "bridge": {
+      "id": 102,
+      "description": "iOS Bridge 1",
+      "ip": "192.168.1.101",
+      "port": 8081
+    },
+    "stop": false,
+    "reason": null,
+    "details": "{\"firmwareVersion\":\"1.2.3\",\"connectionType\":\"WiFi\",\"backendEnvironment\":\"Prod\",\"provisioning\":\"true\",\"site\":\"Site-1\",\"idSerialNumber\":\"SN1234567890\"}",
+    "reserved": true,
+    "connected": true,
+    "duts": [
+      {
+        "id": 2,
+        "sutId": "SUT_IPHONE_14_PRO",
+        "sutName": "iPhone 14 Pro",
+        "sut": {
+          "id": 2
+        },
+        "componentType": "tau",
+        "index": 1,
+        "connected": true,
+        "reserved": false
+      }
+    ],
+    "labelDayNight": "[6 - 23] [23 - 6]",
+    "planningList": [
+      {
+        "id": "test-123",
+        "project": "Dashboard",
+        "test": "Sample Test",
+        "vfName": "VF-001",
+        "typeTarget": "Regression",
+        "variant": "Chrome",
+        "revision": "1.0.0",
+        "release": "2025.09",
+        "sut": "SUT_IPHONE_14_PRO",
+        "status": "Planned",
+        "importance": 1,
+        "k": 2,
+        "executableVersionName": "v1.0.0",
+        "version": 1,
+        "permission": true,
+        "queue": "default",
+        "stepTotal": 10,
+        "stepExecuted": 2,
+        "componentType": "tau",
+        "created": "2025-09-17T10:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "sutId": "SUT_NETWORK_NODE",
+    "sutName": "5G Core Network Node",
+    "componentType": "Mobile",
+    "timezone": "Europe/Rome",
+    "queueNightEnd": 8,
+    "queueNightInit": 20,
+    "queueDayEnd": 20,
+    "queueDayInit": 8,
+    "weekend": "[\"Saturday\", \"Sunday\"]",
+    "bridge": {
+      "id": 103,
+      "description": "Network Bridge 1",
+      "ip": "10.0.1.50",
+      "port": 9090
+    },
+    "stop": false,
+    "reason": null,
+    "details": "{\"firmwareVersion\":\"1.2.3\",\"connectionType\":\"WiFi\",\"backendEnvironment\":\"Prod\",\"provisioning\":\"true\",\"site\":\"Site-1\",\"idSerialNumber\":\"SN1234567890\"}",
+    "reserved": false,
+    "connected": true,
+    "duts": [
+      {
+        "id": 3,
+        "sutId": "SUT_NETWORK_NODE",
+        "sutName": "5G Core Network Node",
+        "sut": {
+          "id": 3
+        },
+        "componentType": "Mobile",
+        "index": 1,
+        "connected": true,
+        "reserved": false
+      }
+    ],
+    "labelDayNight": "[8 - 20] [20 - 8]",
+    "planningList": [
+      {
+        "id": "test-123",
+        "project": "Dashboard",
+        "test": "Sample Test",
+        "vfName": "VF-001",
+        "typeTarget": "Regression",
+        "variant": "Chrome",
+        "revision": "1.0.0",
+        "release": "2025.09",
+        "sut": "SUT_NETWORK_NODE",
+        "status": "Planned",
+        "importance": 1,
+        "k": 2,
+        "executableVersionName": "v1.0.0",
+        "version": 1,
+        "permission": true,
+        "queue": "default",
+        "stepTotal": 10,
+        "stepExecuted": 2,
+        "componentType": "Mobile",
+        "created": "2025-09-17T10:30:00Z"
+      }
+    ]
+  }
+]

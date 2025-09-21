@@ -1,0 +1,27 @@
+.customContainer {
+    overflow: auto;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(72, 76, 77, 0.5);
+    color: #484c4d;
+}
+
+.dash-panel {
+    background-color: #ffffff;
+    overflow: auto;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.glyphicon-minus-sign {
+    color: #0071bc;
+}
+
+.glyphicon-plus-sign {
+    color: #0071bc;
+}
+
+.glyphicon-ok-sign {
+    color: #009245;
+}

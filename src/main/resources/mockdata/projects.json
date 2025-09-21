@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard Mobile App Testing",
+    "description": "Automated testing suite for the main dashboard mobile application"
+  },
+  {
+    "id": 2,
+    "name": "Network Infrastructure Tests",
+    "description": "Performance and stress testing for network infrastructure components"
+  },
+  {
+    "id": 3,
+    "name": "Customer Portal Testing",
+    "description": "End-to-end testing for the customer self-service portal"
+  },
+  {
+    "id": 4,
+    "name": "IoT Device Testing",
+    "description": "Testing suite for IoT device connectivity and management"
+  }
+]

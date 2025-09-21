@@ -1,0 +1,9 @@
+/target/
+/log/
+.idea
+*.iml
+export.pdf
+
+# projects
+/log
+/src/main/resources/application-*.properties

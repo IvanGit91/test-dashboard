@@ -1,0 +1,59 @@
+{
+  "totalTest": 150,
+  "clusters": [
+    {
+      "name": "Authentication Tests",
+      "total": 25,
+      "pass": [
+        {"testId": 1001, "testName": "Login Success", "status": "PASS"},
+        {"testId": 1002, "testName": "Logout Success", "status": "PASS"}
+      ],
+      "fail": [
+        {"testId": 1003, "testName": "Invalid Credentials", "status": "FAIL"}
+      ],
+      "running": [],
+      "noRun": [],
+      "tests": [1001, 1002, 1003]
+    },
+    {
+      "name": "API Integration Tests",
+      "total": 45,
+      "pass": [
+        {"testId": 2001, "testName": "REST API Call", "status": "PASS"},
+        {"testId": 2002, "testName": "GraphQL Query", "status": "PASS"}
+      ],
+      "fail": [
+        {"testId": 2003, "testName": "Database Connection", "status": "FAIL"}
+      ],
+      "running": [
+        {"testId": 2004, "testName": "Performance Load Test", "status": "RUNNING"}
+      ],
+      "noRun": [
+        {"testId": 2005, "testName": "Stress Test", "status": "NOT_RUN"}
+      ],
+      "tests": [2001, 2002, 2003, 2004, 2005]
+    },
+    {
+      "name": "UI/UX Tests",
+      "total": 80,
+      "pass": [
+        {"testId": 3001, "testName": "Button Click", "status": "PASS"},
+        {"testId": 3002, "testName": "Form Validation", "status": "PASS"}
+      ],
+      "fail": [
+        {"testId": 3003, "testName": "Mobile Responsive", "status": "FAIL"}
+      ],
+      "running": [],
+      "noRun": [
+        {"testId": 3004, "testName": "Cross Browser Test", "status": "NOT_RUN"}
+      ],
+      "tests": [3001, 3002, 3003, 3004]
+    }
+  ],
+  "reportGroup": {
+    "PASS": 85,
+    "FAIL": 35,
+    "RUNNING": 15,
+    "NOT_RUN": 15
+  }
+}

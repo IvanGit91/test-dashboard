@@ -1,0 +1,80 @@
+{
+  "1": [
+    {
+      "id": 101,
+      "type": "Android",
+      "name": "Samsung Galaxy S21",
+      "variant": "Ultra",
+      "revision": "1.2.3",
+      "release": "2023.Q4",
+      "created": "2023-12-15 10:30:00 CET",
+      "description": "Premium Android device testing"
+    },
+    {
+      "id": 102,
+      "type": "iOS",
+      "name": "iPhone 14 Pro",
+      "variant": "Pro",
+      "revision": "2.1.0",
+      "release": "2023.Q4",
+      "created": "2023-12-10 14:20:00 CET",
+      "description": "Latest iOS device testing"
+    }
+  ],
+  "2": [
+    {
+      "id": 201,
+      "type": "Server",
+      "name": "Core Network Node",
+      "variant": "5G-SA",
+      "revision": "3.5.2",
+      "release": "2024.Q1",
+      "created": "2024-01-05 09:15:00 CET",
+      "description": "5G Standalone core network testing"
+    },
+    {
+      "id": 202,
+      "type": "Infrastructure",
+      "name": "Base Station Controller",
+      "variant": "LTE-Advanced",
+      "revision": "4.1.1",
+      "release": "2023.Q4",
+      "created": "2023-11-20 16:45:00 CET",
+      "description": "LTE base station controller testing"
+    }
+  ],
+  "3": [
+    {
+      "id": 301,
+      "type": "WebApp",
+      "name": "Customer Portal",
+      "variant": "Desktop",
+      "revision": "5.0.1",
+      "release": "2024.Q1",
+      "created": "2024-01-12 11:30:00 CET",
+      "description": "Desktop web application testing"
+    },
+    {
+      "id": 302,
+      "type": "WebApp",
+      "name": "Customer Portal",
+      "variant": "Mobile",
+      "revision": "5.0.1",
+      "release": "2024.Q1",
+      "created": "2024-01-12 11:35:00 CET",
+      "description": "Mobile web application testing"
+    }
+  ],
+  "4": [
+    {
+      "id": 401,
+      "type": "IoT",
+      "name": "Smart Home Gateway",
+      "variant": "v2",
+      "revision": "1.8.4",
+      "release": "2023.Q4",
+      "created": "2023-12-01 08:00:00 CET",
+      "description": "Smart home IoT gateway testing"
+    }
+  ]
+}

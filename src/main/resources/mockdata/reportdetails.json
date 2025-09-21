@@ -1,0 +1,114 @@
+{
+  "10001": {
+    "vfId": 2001,
+    "testID": "TEST_10001",
+    "name": "Login Functionality Test",
+    "priority": 1,
+    "version": 1,
+    "description": "Comprehensive test for user login functionality",
+    "maker": 12345,
+    "estimated": 180000,
+    "duration": 165000,
+    "feedbackTestInizialization": {
+      "message": "Test initialization completed successfully",
+      "timestamp": "2023-12-15T11:00:00Z"
+    },
+    "feedbackEndTest": {
+      "message": "Test completed successfully",
+      "timestamp": "2023-12-15T11:02:45Z"
+    },
+    "reportTestRepeatWrappers": [
+      {
+        "repeatId": 1,
+        "status": "PASS",
+        "startTime": "2023-12-15T11:00:30Z",
+        "endTime": "2023-12-15T11:02:45Z",
+        "errorDetails": null
+      }
+    ],
+    "reportFileList": [
+      {
+        "fileName": "login_test_log.txt",
+        "fileType": "LOG",
+        "filePath": "/reports/10001/login_test_log.txt",
+        "fileSize": 2048
+      },
+      {
+        "fileName": "screenshot_success.png",
+        "fileType": "IMAGE",
+        "filePath": "/reports/10001/screenshot_success.png", 
+        "fileSize": 15432
+      }
+    ],
+    "variables": {
+      "username": {
+        "name": "username",
+        "value": "testuser@dashboard.com",
+        "type": "STRING"
+      },
+      "password": {
+        "name": "password",
+        "value": "********",
+        "type": "STRING"
+      }
+    },
+    "harInfo": {
+      "totalRequests": 5,
+      "totalTime": 1850,
+      "averageResponseTime": 370
+    }
+  },
+  "10002": {
+    "vfId": 2002,
+    "testID": "TEST_10002",
+    "name": "Payment Gateway Test",
+    "priority": 2,
+    "version": 2,
+    "description": "Test payment gateway integration",
+    "maker": 12346,
+    "estimated": 300000,
+    "duration": 312000,
+    "feedbackTestInizialization": {
+      "message": "Test initialization completed",
+      "timestamp": "2023-12-15T12:30:00Z"
+    },
+    "feedbackEndTest": {
+      "message": "Test failed - Network timeout",
+      "timestamp": "2023-12-15T12:35:12Z"
+    },
+    "reportTestRepeatWrappers": [
+      {
+        "repeatId": 1,
+        "status": "FAIL",
+        "startTime": "2023-12-15T12:30:30Z",
+        "endTime": "2023-12-15T12:35:12Z",
+        "errorDetails": "Network timeout after 30 seconds"
+      }
+    ],
+    "reportFileList": [
+      {
+        "fileName": "payment_test_error.txt",
+        "fileType": "LOG",
+        "filePath": "/reports/10002/payment_test_error.txt",
+        "fileSize": 4096
+      }
+    ],
+    "variables": {
+      "amount": {
+        "name": "amount",
+        "value": "29.99",
+        "type": "DECIMAL"
+      },
+      "currency": {
+        "name": "currency",
+        "value": "EUR",
+        "type": "STRING"
+      }
+    },
+    "harInfo": {
+      "totalRequests": 3,
+      "totalTime": 30000,
+      "averageResponseTime": 10000
+    }
+  }
+}

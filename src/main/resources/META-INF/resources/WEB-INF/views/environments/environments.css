@@ -1,0 +1,191 @@
+.panel-default {
+    background-color: #ffffff;
+    border: 0;
+    margin-top: 0 !important;
+    color: #484c4d;
+    font-weight: 400;
+}
+
+.expandButton {
+    color: #484c4d;
+    padding-right: 15px;
+    text-shadow: 1px 1px 5px #484c4d80;
+}
+
+.expandButton:focus {
+    outline: none;
+}
+
+.panel-title {
+    font-weight: 600;
+    font-size: 11pt;
+}
+
+.panel-heading {
+    color: #484c4d !important;
+    background-color: #e6e6e6 !important;
+    border: none;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-group {
+    box-shadow: 0px 0px 10px 0px rgba(72, 76, 77, 0.5);
+}
+
+.dash-visible {
+    visibility: visible;
+}
+
+.dash-invisible {
+    visibility: hidden;
+}
+
+.availableButton {
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+    border: none;
+    color: #484c4d;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 11pt;
+}
+
+.reloadBtn {
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 1px;
+}
+
+.reloadBtn:hover {
+    color: #66afe9;
+}
+
+.reloadBtn:focus {
+    outline: none;
+}
+
+.availableButton:hover {
+    background-color: #ffffff;
+    color: #484c4d;
+}
+
+.availableButton:active {
+    background-color: #00ff56;
+    color: #484c4d;
+}
+
+.availableButton:hover:focus {
+    background-color: #ffffff;
+    color: #484c4d;
+}
+
+.availableButton:focus {
+    outline: none;
+    background-color: #ffffff;
+    color: #484c4d;
+}
+
+.availableButton:active:focus {
+    outline: none;
+    background-color: #484c4d;
+    color: #e6e6e6;
+}
+
+.table-dashboard-showing {
+    color: #484c4d;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.table-dashboard .ng-table-sort-header .header {
+    pointer-events: none;
+}
+
+.table-dashboard-container .pagination > li > a, .pagination > li > span {
+    color: #e6e6e6;
+}
+
+.table-dashboard-container .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #005CB9;
+    border-color: #e6e6e6;
+}
+
+.table-dashboard-container .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    color: #005CB9;
+}
+
+.table-dashboard-container .btn-default.active {
+    background-color: #005CB9;
+    color: #ffffff;
+    border-color: #e6e6e6;
+    outline: none;
+}
+
+.table-dashboard-container .btn-default.active:hover {
+    color: #ffffff;
+    cursor: default;
+    outline: none;
+}
+
+.table-dashboard-container .btn-default {
+    color: #e6e6e6;
+    outline: none;
+}
+
+.table-dashboard-container .btn-default:hover {
+    color: #005CB9;
+    outline: none;
+}
+
+.table > tbody > tr > td {
+    border-top: none !important;
+
+    line-height: 30px !important;
+}
+
+
+.table-dashboard-container .ng-table th.sortable.sort-asc, .ng-table th.sortable.sort-desc {
+    background-color: rgb(230, 230, 230);
+    outline: none;
+}
+
+.table-dashboard .ng-table-header {
+    text-align: left;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+.table-dashboard .input-filter {
+    height: 28px;
+    background-color: #e6e6e6;
+}
+
+.table-dashboard > tbody > tr:nth-of-type(even) {
+    background-color: #e6e6e6;
+}
+
+.table-dashboard-container {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(72, 76, 77, 0.5);
+    display: block;
+    overflow: auto;
+}
+
+.table-dashboard {
+    background-color: #ffffff;
+    color: #484c4d;
+    font-weight: 400;
+    overflow: auto;
+}
+
+@media (max-width: 877px) {
+    .table-dashboard {
+        display: block;
+    }
+}

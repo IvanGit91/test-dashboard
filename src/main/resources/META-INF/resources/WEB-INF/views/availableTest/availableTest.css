@@ -1,0 +1,19 @@
+.insideBox {
+    border: none;
+    padding: 8px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+.outsideBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.componentTitle {
+    line-height: 30px;
+}

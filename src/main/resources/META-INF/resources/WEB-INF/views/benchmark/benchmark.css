@@ -1,0 +1,127 @@
+.table-dashboard-container {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(72, 76, 77, 0.5);
+    display: block;
+    overflow: auto;
+}
+
+.table-dashboard {
+    background-color: #ffffff;
+    color: #484c4d;
+    font-weight: 500;
+    overflow: auto;
+}
+
+@media (max-width: 877px) {
+    .table-dashboard {
+        display: block;
+    }
+}
+
+.table-dashboard > tbody > tr:nth-of-type(even) {
+    background-color: #e6e6e6;
+}
+
+.table-dashboard .ng-table-header {
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+.table-dashboard .input-filter {
+    height: 28px;
+    background-color: #e6e6e6;
+}
+
+.test-status {
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.passed {
+    background: #009245;
+}
+
+.queued {
+    background: #0071bc;
+}
+
+.failed {
+    background: #005CB9;
+}
+
+.table-dashboard-showing {
+    color: #484c4d;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.table-dashboard .ng-table-sort-header .header {
+    pointer-events: none;
+}
+
+.table-dashboard-container .pagination > li > a, .pagination > li > span {
+    color: #e6e6e6;
+}
+
+.table-dashboard-container .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #005CB9;
+    border-color: #e6e6e6;
+}
+
+.table-dashboard-container .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    color: #005CB9;
+}
+
+.table-dashboard-container .btn-default.active {
+    background-color: #005CB9;
+    color: #ffffff;
+    border-color: #e6e6e6;
+    outline: none;
+}
+
+.table-dashboard-container .btn-default.active:hover {
+    color: #ffffff;
+    cursor: default;
+    outline: none;
+}
+
+.table-dashboard-container .btn-default {
+    color: #e6e6e6;
+    outline: none;
+}
+
+.table-dashboard-container .btn-default:hover {
+    color: #005CB9;
+    outline: none;
+}
+
+.table-dashboard-container .ng-table th.sortable.sort-asc, .ng-table th.sortable.sort-desc {
+    background-color: rgb(230, 230, 230);
+    outline: none;
+}
+
+th {
+    font-size: 11pt;
+}
+
+td {
+    text-align: left;
+}
+
+.reloadBtn {
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 1px;
+}
+
+.reloadBtn:hover {
+    color: #66afe9;
+}
+
+.reloadBtn:focus {
+    outline: none;
+}

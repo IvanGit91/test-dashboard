@@ -1,0 +1,29 @@
+###########################################
+#           DATABASE CONFIG               #
+###########################################
+# Database connection
+datasource.driver.classname = org.postgresql.Driver
+datasource.connection.url = jdbc:postgresql://localhost:5433/dashboard
+datasource.credential.user = <username>
+datasource.credential.password = <password>
+spring.datasource.initialize=true
+
+# Hibernate settings
+hibernate.show_sql = true
+hibernate.use_sql_comments = true
+hibernate.enable_lazy_load_no_trans = true
+hibernate.hbm2ddl.auto = update
+hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+hibernate.jdbc.batch_size = 20
+hibernate.order_inserts = true
+hibernate.order_updates = true
+hibernate.jdbc.batch_versioned_data = true
+spring.jpa.properties.hibernate.id.new_generator_mappings=true
+
+
+###########################################
+#           LOGGING CONFIG                #
+###########################################
+logging.path = ./log/
+logging.pattern.console = %-5level ---> %d{HH:mm:ss} [%line] [%thread] %logger{36} - %msg%n
+logging.pattern.file = %-5level ---> %d{HH:mm:ss} [%line] [%thread] %logger{36} - %msg%n

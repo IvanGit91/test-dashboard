@@ -3,7 +3,7 @@
 ###########################################
 # Database connection
 datasource.driver.classname = org.postgresql.Driver
-datasource.connection.url = jdbc:postgresql://localhost:5433/dashboard
+datasource.connection.url = jdbc:postgresql://localhost:5432/dashboard
 datasource.credential.user = <username>
 datasource.credential.password = <password>
 spring.datasource.initialize=true
